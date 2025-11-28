@@ -30,7 +30,7 @@ class RazasController {
     }
 
     public function editar($id) {
-        $persona = $this->model->obtenerPorId($id);
+        $raza = $this->model->obtenerPorId($id);
         $css_specific = 'raza';
         $content = '../app/Views/Razas/editar.php';
         require  '../app/Views/layout.php';
